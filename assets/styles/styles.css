@@ -25,6 +25,9 @@ từ trên xuống dưới
 }
 
 /* Navigation */
+#nav {
+    display: inline;
+}
 #nav > li {
     display: inline-block;
 }
@@ -44,7 +47,7 @@ từ trên xuống dưới
     text-decoration: none;
     display: block;
 }
-#nav .nav-down{
+#nav .nav-down {
     font-size: 14git px;
 }
 #nav li:hover > a,
@@ -52,7 +55,7 @@ từ trên xuống dưới
     color: #000;
     background-color: #ccc;
 }
-#nav li:hover .subnav{
+#nav li:hover .subnav {
     display: block;
 }
 #nav .subnav {
@@ -71,7 +74,20 @@ từ trên xuống dưới
 }
 /* end session */
 
-
+#header .search-btn{
+    float: right;
+    display: block;
+    
+}
+#header .search-icon{
+    color: #fff;
+    line-height: 46px;
+    padding: 0px 24px;
+}
+#header .search-btn:hover{
+    background-color: red;
+    cursor: pointer;
+}
 #slider {
     min-height: 500px;
     background-color: #fff;
