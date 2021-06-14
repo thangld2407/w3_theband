@@ -34,6 +34,7 @@ từ trên xuống dưới
     position: relative;
 }
 #nav > li > a {
+    text-transform: uppercase;
     color: #fff;
 }
 #nav li a {
@@ -41,24 +42,33 @@ từ trên xuống dưới
     line-height: 46px;
     padding: 0 24px;
     text-decoration: none;
-    display: inline-block;
+    display: block;
 }
 #nav li:hover > a,
 #nav .subnav li:hover a {
     color: #000;
     background-color: #ccc;
 }
-
+#nav li:hover .subnav{
+    display: block;
+}
 #nav .subnav {
+    display: none;
     position: absolute; 
     background-color: #fff;
+    box-shadow: 0 0 10px rgba(1, 1, 1, 0.5);
+    top: 46px;
 }
 #nav .subnav a {
     color: #000;
+    display: block;
+    width: 160px;
+    padding: 0 12 px;
+    line-height: 38px;
 }
 #slider {
     min-height: 500px;
-    background-color: #333;
+    background-color: #fff;
 }
 #container {
 
