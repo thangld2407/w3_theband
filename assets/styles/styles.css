@@ -113,6 +113,50 @@ từ trên xuống dưới
 #container {
 
 }
+#container .content-section {
+    width: 800px;
+    margin-left: auto; /* đẩy sang trái đẩy sang phải auto ra giữa */
+    margin-right: auto;
+    padding: 64px 0;
+}
+#container .section-heading{
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 4px;
+}
+#container .section-heading,
+#container .section-subheading {
+    text-align: center;
+}
+#container .section-subheading {
+    font-size: 15px;
+    margin-top: 25px;
+    font-style: italic;
+    opacity: 60%;
+}
+#container .about-text {
+    font-size: 15px;
+    margin-top: 25px;
+    text-align: justify;
+    line-height: 1.4;
+}
+#container  ul{
+    list-style-type: none;
+    display: inline-block;
+    padding: 32px 0;
+}
+#container ul li {
+    float: left;
+    padding: 32px 47px;
+}
+#container img{
+    width: 154px;
+    height: 154px;
+}
+#container .infor-band p{
+    margin: 15px 0;
+    text-align: center;
+}
 #footer {
 
 }
