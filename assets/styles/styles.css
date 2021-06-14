@@ -22,6 +22,9 @@ từ trên xuống dưới
 #header {
     background-color: #000;
     height: 46px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
 
 /* Navigation */
@@ -74,9 +77,8 @@ từ trên xuống dưới
 }
 /* end session */
 
-#header .search-btn{
+#header .search-btn {
     float: right;
-    display: block;
     
 }
 #header .search-icon{
@@ -89,8 +91,24 @@ từ trên xuống dưới
     cursor: pointer;
 }
 #slider {
-    min-height: 500px;
-    background-color: #fff;
+    padding-top: 50%;
+    background: url('/assets/img/slider/chicago.jpg') top center / cover no-repeat;
+    position: relative;
+}
+#slider .text-content {
+    position: absolute;
+    bottom: 47px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+#slider .text-heading {
+    font-size: 24px;
+    font-weight: 500;
+}
+#slider .text-description {
+    font-size: 15px;
+    margin-top: 25px;
 }
 #container {
 
