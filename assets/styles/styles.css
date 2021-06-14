@@ -24,7 +24,7 @@ từ trên xuống dưới
     height: 46px;
 }
 
-
+/* Navigation */
 #nav > li {
     display: inline-block;
 }
@@ -66,6 +66,9 @@ từ trên xuống dưới
     padding: 0 12 px;
     line-height: 38px;
 }
+/* end session */
+
+
 #slider {
     min-height: 500px;
     background-color: #fff;
