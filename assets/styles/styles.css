@@ -22,31 +22,43 @@ từ trên xuống dưới
 #header {
     background-color: #000;
     height: 46px;
-    color: #fff;
 }
-#nav{
 
+
+#nav > li {
+    display: inline-block;
 }
 #nav li {
-    display: inline-block;
-    
+    list-style-type: none;
+    float: left;
+    position: relative;
 }
-#nav .subnav{
-    display: none;
-}
-#nav li a{
+#nav > li > a {
     color: #fff;
-    text-decoration: none;
+}
+#nav li a {
+    color: #fff;
     line-height: 46px;
     padding: 0 24px;
+    text-decoration: none;
     display: inline-block;
 }
-#nav li:hover a{
+#nav li:hover > a,
+#nav .subnav li:hover a {
     color: #000;
     background-color: #ccc;
 }
-#slider {
 
+#nav .subnav {
+    position: absolute; 
+    background-color: #fff;
+}
+#nav .subnav a {
+    color: #000;
+}
+#slider {
+    min-height: 500px;
+    background-color: #333;
 }
 #container {
 
