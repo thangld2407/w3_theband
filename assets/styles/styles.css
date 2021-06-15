@@ -145,16 +145,57 @@ từ trên xuống dưới
     display: inline-block;
     padding: 32px 0;
 }
-#container ul li {
+#container .member-list > li {
     float: left;
     padding: 32px 47px;
 }
 #container img{
     width: 154px;
     height: 154px;
+    border-radius: 4px;
 }
 #container .infor-band p{
     margin: 15px 0;
+    text-align: center;
+    
+}
+.tour-section {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 64px;
+    padding-bottom: 64px;
+
+}
+.about-tourdates {
+    background-color: #000;
+}
+.about-tourdates > .tour-section{
+    color: #fff;
+}
+.list-ticket li {
+    color: #757575;
+    background-color: #fff;
+    width: 800px;
+    height: 40px;
+    border-bottom: 1px solid #ddd;
+    padding: 12px 16px;
+    font-size: 15px;
+    
+}
+.list-ticket .sold-out {
+    background-color: red;
+    margin-left: 16px;
+    color: #fff;
+    display: inline-block;
+    padding: 4px 4px;
+}
+.list-ticket .quantiki {
+    float: right;
+    background-color: #000;
+    color: #fff;
+    border-radius: 50%;
+    width: 20px;
     text-align: center;
 }
 #footer {
